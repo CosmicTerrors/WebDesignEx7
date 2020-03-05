@@ -1,0 +1,172 @@
+header{
+    background-image: url(../images/carrots.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    color: navajowhite;
+    border: 1px solid blue;
+    text-align: left;
+    border-radius: 1em;
+}
+
+#content{
+    float: left;
+    width: 80%;
+    padding:5px;
+    margin-right: 1em;
+    border: 1px solid grey;
+    border-radius: 1em;
+    text-align: center;
+}
+
+#bigPic{
+    width: 70%;
+    float:right;
+    border: 1px solid grey;
+    margin: 1em;
+}
+
+.video{
+    float: left;
+}
+
+.showimages{
+    float: right;
+}
+
+.dessert{
+    float: left;
+    column-count: 3;
+    column-rule: 1px solid white;
+    column-gap: 50px;
+    padding: 2em;
+    text-align: center;
+}
+.manager{
+    text-align: left;
+}
+aside{
+    border: 1px solid green;
+    width: 18%;
+    float: right;
+    border-radius: 1em;
+}
+
+aside ul li a{
+    color:blue;
+    text-decoration: none;
+}
+
+aside ul li {
+    list-style-type: none;
+}
+
+nav{
+    background-color: grey;
+    padding: 5px;
+    border: 1px solid green;
+    border-radius: 1em;
+}
+
+nav ul, footer ul{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+nav ul li, footer ul li{
+    list-style-type: none;
+    background-color: lightgray;
+    display: inline;
+    padding: 15px;
+    margin: 5px;
+}
+
+nav ul li a, footer ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li:hover, footer ul li:hover{
+    background-color: lightgreen;
+}
+
+body{
+    background-color: black;
+    color:white;
+    text-align:center;
+}
+
+.col_detail{
+    float: left;
+}
+
+footer{
+    clear: both;
+    border: 1px solid orange;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: grey;
+    text-align: center;
+    border-radius: 1em;
+}
+
+footer p{
+    text-align: center;
+    
+}
+
+.top{
+    color: blue;
+}
+
+p{
+    text-align: left;
+}
+
+.backgroundImageD{
+    background-image: url(../images/eggs.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    border: 3px solid black;
+}
+.backgroundImageC{
+    background-image: url(../images/carrots.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    border: 3px solid black;
+}
+
+.backgroundImageB{
+    background-image: url(../images/bacon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    border: 3px solid black;
+}
+
+.col_article{
+    column-count: 3;
+    column-rule: 1px solid white;
+    column-gap: 40px;
+    padding: 1em;
+    text-align: center;
+}
+
+.starter{
+    border: 2px solid white;
+    margin: 1%;
+}
+.main {
+    border: 2px solid white;
+    margin: 1%;
+}
+
+.desserts {
+    border: 2px solid white;
+    margin: 1%;
+}
